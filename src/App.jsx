@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Inventario from "./components/Inventario";
 import Ventas from "./components/Ventas";
 import Administracion from "./components/Administrar";
+import Catalogo from "./components/catalogo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Inventario />} />
             <Route path="/ventas" element={<Ventas />} />
+            <Route path="/catalogo" element={<Catalogo />} />
             <Route path="/administar" element={<Administracion />} />
           </Routes>
         </div>

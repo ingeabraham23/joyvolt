@@ -74,15 +74,18 @@
 .celda-nombre-joyvolt {
   background-color: lawngreen;
   border: 1px solid black;
+  text-align: center;
 }
 .celda-cantidad-joyvolt {
   background-color: lawngreen;
   border: 1px solid black;
   font-size: 12px;
+  text-align: center;
 }
 .celda-precio-joyvolt {
   background-color: lawngreen;
   border: 1px solid black;
+  text-align: center;
 }
 .celda-acciones-joyvolt {
   background-color: red;

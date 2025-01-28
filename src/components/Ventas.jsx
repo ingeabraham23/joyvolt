@@ -45,6 +45,7 @@ function Ventas() {
       ...venta.productos,
       {
         ...productoSeleccionado,
+        precio : articulo.precio,
         subtotal,
         imagen: articulo.imagen, // Añade la URL de la imagen
       },
@@ -173,15 +174,16 @@ function Ventas() {
       <table className="tabla-ventas-joyvolt" ref={tablaRef}>
         <thead>
         <tr>
-            <th className="celda-titulo-joyvolt" colSpan={4} >{fechaFormateada}</th>
+            <th className="celda-titulo-joyvolt" colSpan={5} >{fechaFormateada}</th>
           </tr>
           <tr>
-            <th className="celda-titulo-joyvolt" colSpan={4} >{venta.nombreCliente}</th>
+            <th className="celda-titulo-joyvolt" colSpan={5} >{venta.nombreCliente}</th>
           </tr>
           <tr>
             <th className="celda-encabezado-joyvolt">Imagen</th>
             <th className="celda-encabezado-joyvolt">Artículo</th>
-            <th className="celda-encabezado-joyvolt">#</th>
+            <th className="celda-encabezado-joyvolt">Cant.</th>
+            <th className="celda-encabezado-joyvolt">P.U.</th>
             <th className="celda-encabezado-joyvolt">Subt.</th>
           </tr>
         </thead>
@@ -191,20 +193,20 @@ function Ventas() {
               <td className="celda-imagen-joyvolt">
                 <img
                   src={prod.imagen}
-                  alt={prod.nombreArticulo}
                   width="50"
                   height="50"
                 />
               </td>
               <td className="celda-nombre-joyvolt">{prod.nombreArticulo}</td>
               <td className="celda-cantidad-joyvolt">{prod.cantidad}</td>
+              <td className="celda-cantidad-joyvolt">{prod.precio}</td>
               <td className="celda-precio-joyvolt">${prod.subtotal.toFixed(2)}</td>
             </tr>
           ))}
         </tbody>
         <tfoot>
           <tr>
-            <td className="celda-pie-joyvolt" colSpan={4} >Total: ${total.toFixed(2)}</td>
+            <td className="celda-pie-joyvolt" colSpan={5} >Total: ${total.toFixed(2)}</td>
           </tr>
         </tfoot>
       </table>

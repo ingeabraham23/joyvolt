@@ -177,8 +177,8 @@ function Inventario() {
           </tr>
           <tr>
             <th className="celda-encabezado-joyvolt">Foto</th>
-            <th className="celda-encabezado-joyvolt">Nombre del producto</th>
-            <th className="celda-encabezado-joyvolt">#</th>
+            <th className="celda-encabezado-joyvolt">Articulo</th>
+            <th className="celda-encabezado-joyvolt">Cant.</th>
             <th className="celda-encabezado-joyvolt">$</th>
           </tr>
         </thead>
@@ -188,7 +188,6 @@ function Inventario() {
               <td className="celda-imagen-joyvolt">
                 <img
                   src={inv.imagen}
-                  alt={inv.nombre}
                   width="50"
                   height="50"
                   align="center"
