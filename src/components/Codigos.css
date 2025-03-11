@@ -1,0 +1,106 @@
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+  @font-face {
+    font-family: "ARCO Typography";
+    src: url("../fonts/ARCO.ttf") format("truetype"); /* Ajusta la ruta según la ubicación de tu archivo de fuente */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .contenedor-codigos-joyvolt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .separador-codigos-joyvolt {
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+    margin: 10px 0; /* Puedes ajustar el margen según tus necesidades */
+  }
+
+  .serie-codigos {
+    font-size: 30px;
+    font-weight: bold;
+    color: darkgreen;
+  }
+
+  .fecha-codigos {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .detalle-codigos {
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+  }
+
+  .titulo-mes-codigos {
+    background-color: chartreuse;
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  .boton-descarga-codigos {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .boton-descarga-codigos:hover {
+    background: linear-gradient(135deg, #ff5f9e, #ff4f82);
+    transform: scale(1.05);
+  }
+
+  .boton-descarga-codigos:active {
+    transform: scale(0.95);
+  }
+
+  .tabla-codigos {
+    border-collapse: collapse;
+  }
+
+  .celda-codigos-img {
+    text-align: center;
+  }
+
+  .celda-codigos-fecha {
+    font-family: "ARCO Typography";
+    letter-spacing: 2px; /* Ajusta el espaciado según sea necesario */
+    color: #ff0000;
+    text-shadow: 1px 1px 1px #000000; /* Ajusta el sombreado según sea necesario */
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+
+    -webkit-text-stroke-width: 1px; /* Grosor del contorno */
+    -webkit-text-stroke-color: #000000; /* Color del contorno */
+  }
+
+  .celda-codigos-serie {
+    font-family: "ARCO Typography";
+    letter-spacing: 2px; /* Ajusta el espaciado según sea necesario */
+    color: #7bff00;
+    text-shadow: 1px 1px 1px #000000; /* Ajusta el sombreado según sea necesario */
+    font-size: 30px;
+    text-align: center;
+    padding: 2px;
+
+    -webkit-text-stroke-width: 1px; /* Grosor del contorno */
+    -webkit-text-stroke-color: #000000; /* Color del contorno */
+  }
+}

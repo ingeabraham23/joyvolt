@@ -6,6 +6,8 @@ import Inventario from "./components/Inventario";
 import Ventas from "./components/Ventas";
 import Administracion from "./components/Administrar";
 import Catalogo from "./components/catalogo";
+import Codigos from "./components/Codigos";
+import Kit from "./components/Kit";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
             <Route path="/ventas" element={<Ventas />} />
             <Route path="/catalogo" element={<Catalogo />} />
             <Route path="/administar" element={<Administracion />} />
+            <Route path="/codigos" element={<Codigos />} />
+            <Route path="/kit" element={<Kit />} />
           </Routes>
         </div>
     </HashRouter>

@@ -25,6 +25,16 @@ const Catalogo = () => {
     { src: "./catalogo/led 5mod blanco catalogo.png", alt: "Led 5 modulos blanco" },
     { src: "./catalogo/led 5mod rosa catalogo.png", alt: "Led 5 modulos rosa" },
     { src: "./catalogo/led 12mod blanco catalogo.png", alt: "Led 12 modulos blanco" },
+    { src: "./catalogo/foco star h4 catalogo.png", alt: "Foco star h4" },
+    { src: "./catalogo/relevador weischler catalogo.png", alt: "Relevador weischler" },
+    { src: "./catalogo/arnes relevador 5 patas catalogo.png", alt: "Arnes relevador 5 patas" },
+    { src: "./catalogo/cinta doble cara 3m vhb catalogo.png", alt: "Cinta doble cara 3m vhb" },
+    { src: "./catalogo/foco hella h4 catalogo.png", alt: "Foco hella h4" },
+    { src: "./catalogo/fusible vidrio catalogo.png", alt: "Fusible vidrio" },
+    { src: "./catalogo/porta fusible de clavija catalogo.png", alt: "Porta fusible de clavija" },
+    { src: "./catalogo/switch balancin amarillo catalogo.png", alt: "Switch balancin amarillo" },
+    { src: "./catalogo/switch balancin rojo catalogo.png", alt: "Switch balancin rojo" },
+    { src: "./catalogo/led pellizco t10 catalogo.png", alt: "Led pellizco t10" },
   ];
 
   return (

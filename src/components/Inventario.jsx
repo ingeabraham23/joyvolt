@@ -244,6 +244,7 @@ function Inventario() {
               <td className="celda-nombre-joyvolt">{inv.nombre}</td>
               <td className="celda-cantidad-joyvolt">{inv.cantidad}</td>
               <td className="celda-precio-joyvolt">{inv.precio}</td>
+              <td className="celda-precio-joyvolt">{inv.imagen}</td>
               <td className="celda-acciones-joyvolt">
                 <button onClick={() => editarArticulo(inv)}>Editar</button>
                 <button onClick={() => eliminarArticulo(inv.id)}>

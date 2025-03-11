@@ -3,15 +3,19 @@ import "./Navbar.css"
 import {
     faDeleteLeft,
     faMoneyBill,
+    faScrewdriverWrench,
     faTableList,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQrcode } from '@fortawesome/free-solid-svg-icons/faQrcode';
 
 const navigationItems = [
   { path: '/', icon: faTableList, label: 'Inventario' },
   { path: '/ventas', icon: faMoneyBill, label: 'Ventas' },
   { path: '/catalogo', icon: faMoneyBill, label: 'Catalogo' },
   { path: '/administar', icon: faDeleteLeft, label: 'Administrar' },
+  { path: '/codigos', icon: faQrcode, label: 'Codigos' },
+  { path: '/kit', icon: faScrewdriverWrench, label: 'Kit' },
 
 ];
 
