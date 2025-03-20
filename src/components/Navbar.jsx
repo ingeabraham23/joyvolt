@@ -16,6 +16,7 @@ const navigationItems = [
   { path: '/administar', icon: faDeleteLeft, label: 'Administrar' },
   { path: '/codigos', icon: faQrcode, label: 'Codigos' },
   { path: '/kit', icon: faScrewdriverWrench, label: 'Kit' },
+  { path: '/curso', icon: faScrewdriverWrench, label: 'Curso' },
 
 ];
 

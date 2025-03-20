@@ -35,6 +35,9 @@ const Catalogo = () => {
     { src: "./catalogo/switch balancin amarillo catalogo.png", alt: "Switch balancin amarillo" },
     { src: "./catalogo/switch balancin rojo catalogo.png", alt: "Switch balancin rojo" },
     { src: "./catalogo/led pellizco t10 catalogo.png", alt: "Led pellizco t10" },
+    { src: "./catalogo/cincho 40cm catalogo.png", alt: "Cincho 40cm" },
+    { src: "./catalogo/concavo 3 catalogo.png", alt: "Concavo 3 pulgadas" },
+    { src: "./catalogo/push button 3a catalogo.png", alt: "Push button 3a" },
   ];
 
   return (
