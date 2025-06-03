@@ -4,7 +4,9 @@ import {
     faDeleteLeft,
     faMoneyBill,
     faScrewdriverWrench,
+    faTableCells,
     faTableList,
+    faPlay,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQrcode } from '@fortawesome/free-solid-svg-icons/faQrcode';
@@ -15,8 +17,10 @@ const navigationItems = [
   { path: '/catalogo', icon: faMoneyBill, label: 'Catalogo' },
   { path: '/administar', icon: faDeleteLeft, label: 'Administrar' },
   { path: '/codigos', icon: faQrcode, label: 'Codigos' },
+  { path: '/tabla', icon: faTableCells, label: 'Tabla' },
+  { path: '/simbolos', icon: faTableCells, label: 'Simbolos' },
   { path: '/kit', icon: faScrewdriverWrench, label: 'Kit' },
-  { path: '/curso', icon: faScrewdriverWrench, label: 'Curso' },
+  { path: '/curso', icon: faPlay, label: 'Curso' },
 
 ];
 

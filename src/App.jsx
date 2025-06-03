@@ -9,6 +9,9 @@ import Catalogo from "./components/catalogo";
 import Codigos from "./components/Codigos";
 import Kit from "./components/Kit";
 import Curso from "./components/Curso";
+import TablaCodigos from "./components/TablaCodigos";
+import Simbolos from "./components/Simbolos";
+import 'react-perfect-scrollbar/dist/css/styles.css';
 
 function App() {
   return (
@@ -21,6 +24,8 @@ function App() {
             <Route path="/catalogo" element={<Catalogo />} />
             <Route path="/administar" element={<Administracion />} />
             <Route path="/codigos" element={<Codigos />} />
+            <Route path="/tabla" element={<TablaCodigos />} />
+            <Route path="/simbolos" element={<Simbolos />} />
             <Route path="/kit" element={<Kit />} />
             <Route path="/curso" element={<Curso />} />
           </Routes>

@@ -7,6 +7,13 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: "Coolvetica";
+    src: url("../fonts/Coolvetica Rg.otf") format("truetype"); /* Ajusta la ruta según la ubicación de tu archivo de fuente */
+    font-weight: normal;
+    font-style: normal;
+  }
+
   .contenedor-codigos-joyvolt {
     display: flex;
     flex-direction: column;
@@ -103,4 +110,79 @@
     -webkit-text-stroke-width: 1px; /* Grosor del contorno */
     -webkit-text-stroke-color: #000000; /* Color del contorno */
   }
+
+  .celda-codigos-serie-largo {
+    font-family: "Coolvetica";
+    letter-spacing: 2px; /* Ajusta el espaciado según sea necesario */
+    color: #d9ff00;
+    text-shadow: 1px 1px 1px #000000; /* Ajusta el sombreado según sea necesario */
+    font-size: 40px;
+    text-align: center;
+    padding: 1px;
+    font-weight: bold;
+
+    -webkit-text-stroke-width: 1px; /* Grosor del contorno */
+    -webkit-text-stroke-color: #000000; /* Color del contorno */
+  }
+
+  .menu-flotante {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.boton-menu {
+  display: block;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid #999;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 8px;
+  transition: all 0.3s ease;
+}
+
+.boton-menu:hover {
+  background-color: #eee;
+}
+
+.boton-menu.activo {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.contenido-codigos {
+  padding: 20px;
+}
+
+.seccion-codigos {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.seccion-codigos span {
+  display: block;
+  margin-bottom: 8px; /* o el espacio que quieras */
+}
+
+.seccion-codigos.detalle-codigos {
+  text-align: center;
+}
+
+.titulo-mes-codigos {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
 }

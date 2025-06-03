@@ -59,6 +59,8 @@
 .celda-titulo-joyvolt {
   background-color: rgb(239, 121, 255);
   border: 1px solid black;
+  letter-spacing: 1px; /* Ajusta el espaciado entre letras según sea necesario */
+  word-spacing: 3px; /* Ajusta el espaciado entre palabras según sea necesario */
 }
 
 .celda-encabezado-joyvolt {

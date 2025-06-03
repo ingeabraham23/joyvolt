@@ -1,0 +1,191 @@
+.tabla-simbolos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Siempre 4 columnas */
+  gap: 12px;
+  padding: 12px;
+}
+
+.tabla-simbolos-rutas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Siempre 4 columnas */
+  gap: 2px;
+  padding: 4px;
+}
+
+.tabla-simbolos-grandes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Siempre 4 columnas */
+  gap: 12px;
+  padding: 12px;
+}
+
+.celda-simbolo {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 20px; /* Ajusta para pantallas pequeñas */
+}
+
+.tabla-tipos {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.tabla-tipos thead {
+  background: #0d47a1;
+  color: white;
+  font-size: 20px;
+}
+
+.celda-tipos-titulo {
+  padding: 16px;
+  text-align: center;
+  background-color: #0d47a1;
+  font-weight: bold;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.celda-tipos-encabezado {
+  background: #e3f2fd;
+  color: #0d47a1;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+  border-top: 4px solid #90caf9;
+}
+
+.celda-tipos {
+  padding: 3px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+}
+
+.celda-vacia {
+  height: 6px;
+  background: #fafafa;
+}
+
+.terminos {
+  font-size: 14px;
+  padding: 1px;
+  color: #616161;
+  background: #f5f5f5;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.copyright {
+  font-size: 13px;
+  padding: 12px;
+  text-align: center;
+  color: #999;
+  background: #eeeeee;
+}
+
+.caracter-titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  color: #ffffff;
+  background-color: rgb(158, 158, 158);
+  padding: 1px; /* Ajusta el valor según lo que necesites */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.caracter-talzintan {
+  font-weight: bold;
+  margin-bottom: 6px;
+  background-color: rgb(43, 255, 0);
+  padding: 10px; /* Ajusta el valor según lo que necesites */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.caracter-sosa {
+  font-weight: bold;
+  margin-bottom: 6px;
+  background-color: rgb(212, 0, 255);
+  padding: 10px; /* Ajusta el valor según lo que necesites */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.caracter-tezo {
+  font-weight: bold;
+  margin-bottom: 6px;
+  background-color: rgb(255, 158, 12);
+  padding: 10px; /* Ajusta el valor según lo que necesites */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.caracter-c {
+  font-weight: bold;
+  margin-bottom: 6px;
+  background-color: rgb(106, 158, 255);
+  padding: 10px; /* Ajusta el valor según lo que necesites */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.caracter {
+  font-weight: bold;
+  margin-bottom: 6px;
+  background-color: lightcoral;
+}
+
+.imagen-simbolo {
+  max-height: 60px;
+  max-width: 60px;
+  object-fit: contain;
+}
+
+.imagen-simbolo-grande {
+  max-height: 60px;
+  max-width: 140px;
+  object-fit: contain;
+}
+
+.titulo-simbolos {
+  text-align: center;
+  font-size: 20px;
+  background-color: aquamarine;
+}
+
+.pie-copyright {
+  text-align: center;
+}
+
+.boton-capturar-simbolos {
+  display: block; /* Hace que respete el centrado con margin */
+  margin: 2rem auto; /* Centrado horizontal y separación arriba/abajo */
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.boton-capturar-simbolos:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.boton-capturar-simbolos:active {
+  transform: scale(0.98);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

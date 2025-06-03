@@ -7,6 +7,7 @@
   
   .navbar-nav {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,6 +18,9 @@
   }
   
   .nav-link {
+    display: flex;
+  flex-direction: column; /* Coloca los hijos en columna */
+  align-items: center;     /* Centra horizontalmente */
     color: #333;
     text-decoration: none;
     padding: 5px 10px;
