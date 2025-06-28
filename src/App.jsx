@@ -12,6 +12,7 @@ import Curso from "./components/Curso";
 import TablaCodigos from "./components/TablaCodigos";
 import Simbolos from "./components/Simbolos";
 import 'react-perfect-scrollbar/dist/css/styles.css';
+import GifGallery from "./components/GifGallery";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/simbolos" element={<Simbolos />} />
             <Route path="/kit" element={<Kit />} />
             <Route path="/curso" element={<Curso />} />
+            <Route path="/gifs" element={<GifGallery />} />
           </Routes>
         </div>
     </HashRouter>

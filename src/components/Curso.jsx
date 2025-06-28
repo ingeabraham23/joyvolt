@@ -246,7 +246,162 @@ const Curso = () => {
       </div>
       <div className="separador-kit-joyvolt"></div>
 
+      <h3>TUTORIAL JUNIO 2025 LETRERO 4.1 APLICACION 1.1.7</h3>
 
+
+      <div className="separador-kit-joyvolt"></div>
+      <p className="direccion-web">
+        01 Uso de botones fisicos y monitor. Brillo, ruta y id.
+      </p>
+      {/* Video embebido */}
+      <div style={{ width: "50vw", margin: "0 auto" }}>
+        <iframe
+          width="100%"
+          height="auto"
+          style={{ aspectRatio: "16 / 9" }}
+          src="https://www.youtube.com/embed/6UBIc115nAg"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <p className="direccion-web">https://youtu.be/6UBIc115nAg</p>
+      <div className="link-container">
+        <a
+          href={"https://youtu.be/6UBIc115nAg"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="boton-enlace"
+        >
+          Abrir Enlace
+        </a>
+        <button
+          onClick={() => {
+            navigator.clipboard.writeText("https://youtu.be/6UBIc115nAg");
+            alert("Enlace copiado al portapapeles");
+          }}
+          className="boton-copiar"
+        >
+          Copiar Enlace
+        </button>
+      </div>
+
+      <div className="separador-kit-joyvolt"></div>
+      <p className="direccion-web">
+        02 Instalacion, configuración y uso de la aplicacion android.
+      </p>
+      {/* Video embebido */}
+      <div style={{ width: "50vw", margin: "0 auto" }}>
+        <iframe
+          width="100%"
+          height="auto"
+          style={{ aspectRatio: "16 / 9" }}
+          src="https://www.youtube.com/embed/rT9ToAP6R_M"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <p className="direccion-web">https://youtu.be/rT9ToAP6R_M</p>
+      <div className="link-container">
+        <a
+          href={"https://youtu.be/rT9ToAP6R_M"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="boton-enlace"
+        >
+          Abrir Enlace
+        </a>
+        <button
+          onClick={() => {
+            navigator.clipboard.writeText("https://youtu.be/rT9ToAP6R_M");
+            alert("Enlace copiado al portapapeles");
+          }}
+          className="boton-copiar"
+        >
+          Copiar Enlace
+        </button>
+      </div>
+
+      <div className="separador-kit-joyvolt"></div>
+      <p className="direccion-web">
+        03 Creacion y configuración de rutas.
+      </p>
+      {/* Video embebido */}
+      <div style={{ width: "50vw", margin: "0 auto" }}>
+        <iframe
+          width="100%"
+          height="auto"
+          style={{ aspectRatio: "16 / 9" }}
+          src="https://www.youtube.com/embed/RYLGYwPsYvs"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <p className="direccion-web">https://youtu.be/RYLGYwPsYvs</p>
+      <div className="link-container">
+        <a
+          href={"https://youtu.be/RYLGYwPsYvs"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="boton-enlace"
+        >
+          Abrir Enlace
+        </a>
+        <button
+          onClick={() => {
+            navigator.clipboard.writeText("https://youtu.be/RYLGYwPsYvs");
+            alert("Enlace copiado al portapapeles");
+          }}
+          className="boton-copiar"
+        >
+          Copiar Enlace
+        </button>
+      </div>
+
+      <div className="separador-kit-joyvolt"></div>
+      <p className="direccion-web">
+        04 Efectos, fondo, marcos y reinicio de letrero.
+      </p>
+      {/* Video embebido */}
+      <div style={{ width: "50vw", margin: "0 auto" }}>
+        <iframe
+          width="100%"
+          height="auto"
+          style={{ aspectRatio: "16 / 9" }}
+          src="https://www.youtube.com/embed/HO302fDoBN8"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <p className="direccion-web">https://youtu.be/HO302fDoBN8</p>
+      <div className="link-container">
+        <a
+          href={"https://youtu.be/HO302fDoBN8"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="boton-enlace"
+        >
+          Abrir Enlace
+        </a>
+        <button
+          onClick={() => {
+            navigator.clipboard.writeText("https://youtu.be/HO302fDoBN8");
+            alert("Enlace copiado al portapapeles");
+          }}
+          className="boton-copiar"
+        >
+          Copiar Enlace
+        </button>
+      </div>
+
+      <div className="separador-kit-joyvolt"></div>
     </div>
   );
 };

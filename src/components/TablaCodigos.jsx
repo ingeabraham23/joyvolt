@@ -33,7 +33,7 @@ const datos = {
     { fecha: "16-02-2025", codigo: "SE-n5533344", color: "white" },
     { fecha: "16-02-2025", codigo: "SE-n5557620", color: "#29e8ff", numero: "34", estado: "ok"},//azul ruta 01
     { fecha: "16-02-2025", codigo: "SE-n5569684", color: "white" },
-    { fecha: "16-02-2025", codigo: "SE-n5633544", color: "#9cf94e" },//verde
+    { fecha: "16-02-2025", codigo: "SE-n5633544", color: "#9cf94e", numero: "119", estado: "ok" },//verde
     { fecha: "16-02-2025", codigo: "SE-n5642500", color: "white" },
     { fecha: "16-02-2025", codigo: "SE-n5648864", color: "white" },
     { fecha: "16-02-2025", codigo: "SE-n15216080", color: "white" },
@@ -90,6 +90,28 @@ const datos = {
     { fecha: "27-05-2025", codigo: "985565a84320", color: "white" },
     { fecha: "27-05-2025", codigo: "d4f364a84320", color: "white" },
     { fecha: "27-05-2025", codigo: "f870dd895dc0", color: "#f94e4e", numero: "47", estado: "ok"},//rojo
+  ],
+
+  "JUNIO 2025": [
+    { fecha: "09-06-2025", codigo: "2c6b2c65b7a0", color: "white" },
+    { fecha: "09-06-2025", codigo: "2c7a64a84320", color: "white" },
+    { fecha: "09-06-2025", codigo: "2cd864a84320", color: "#9cf94e", estado: "ok" },//verde
+    { fecha: "09-06-2025", codigo: "3ce02b65b7a0", color: "white" },
+    { fecha: "09-06-2025", codigo: "4c6ddd895dc0", color: "orange" },
+    { fecha: "09-06-2025", codigo: "585e45c3dc24", color: "linear-gradient(to bottom, red, white, green)", numero: "73", estado: "ok"},//Ruta 03 C17
+    { fecha: "09-06-2025", codigo: "089664a84320", color: "white" },
+    { fecha: "13-06-2025", codigo: "209e65a84320", color: "white" },//lO TIENE ABRAHAM VIERNES 20 DE JUNIO
+    { fecha: "13-06-2025", codigo: "306c64a84320", color: "white" },
+    { fecha: "13-06-2025", codigo: "084764a84320", color: "white" },
+    { fecha: "13-06-2025", codigo: "b4b665a84320", color: "linear-gradient(to bottom, red, white, green)", numero: "C17", estado: "ok"},//Ruta 03 C17
+    { fecha: "13-06-2025", codigo: "bcaedc895dc0", color: "white" },
+    { fecha: "13-06-2025", codigo: "c4c564a84320", color: "linear-gradient(to bottom, red, white, green)", numero: "53", estado: "ok"},//Ruta 03 C17
+    { fecha: "13-06-2025", codigo: "c83546c3dc24", color: "white" },
+    { fecha: "16-06-2025", codigo: "5527248", color: "#29e8ff", numero: "51", estado: "ok"}, //azul ruta 01
+    { fecha: "16-06-2025", codigo: "5607896", color: "#29e8ff", estado: "ok"}, //azul ruta 01
+    { fecha: "19-06-2025", codigo: "4550136", color: "#9cf94e", estado: "ok" },//verde
+    
+
   ],
 };
 
