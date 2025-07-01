@@ -19,6 +19,7 @@ const datos = {
   "ENERO 2025": [
     { fecha: "13-01-2025", codigo: "SE-n4323804", color: "#29e8ff" },//azul ruta 01
     { fecha: "13-01-2025", codigo: "SE-n4368628", color: "#f94e4e", numero: "28", estado: "ok" },//rojo
+    { fecha: "13-01-2025", codigo: "f4a8422a13d8", color: "#f94e4e", numero: "28", estado: "ok" },//rojo
     { fecha: "13-01-2025", codigo: "SE-n4369196", color: "#9cf94e" },//verde
     { fecha: "13-01-2025", codigo: "SE-n4545128", color: "#f94e4e", numero: "27", estado: "ok"},//rojo
     { fecha: "21-01-2025", codigo: "SE-n4546448", color: "white" },
@@ -30,7 +31,7 @@ const datos = {
   "FEBRERO 2025": [
     { fecha: "01-02-2025", codigo: "SE-n4381120", color: "#9cf94e" },//verde
     { fecha: "04-02-2025", codigo: "SE-n4602144", color: "#9cf94e" },//verde
-    { fecha: "16-02-2025", codigo: "SE-n5533344", color: "white" },
+    { fecha: "16-02-2025", codigo: "SE-n5533344", color: "#9cf94e", estado: "ok" },//verde
     { fecha: "16-02-2025", codigo: "SE-n5557620", color: "#29e8ff", numero: "34", estado: "ok"},//azul ruta 01
     { fecha: "16-02-2025", codigo: "SE-n5569684", color: "white" },
     { fecha: "16-02-2025", codigo: "SE-n5633544", color: "#9cf94e", numero: "119", estado: "ok" },//verde
@@ -110,6 +111,7 @@ const datos = {
     { fecha: "16-06-2025", codigo: "5527248", color: "#29e8ff", numero: "51", estado: "ok"}, //azul ruta 01
     { fecha: "16-06-2025", codigo: "5607896", color: "#29e8ff", estado: "ok"}, //azul ruta 01
     { fecha: "19-06-2025", codigo: "4550136", color: "#9cf94e", estado: "ok" },//verde
+    { fecha: "25-06-2025", codigo: "e8afbc641d44", color: "white" },
     
 
   ],

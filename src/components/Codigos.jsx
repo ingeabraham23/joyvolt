@@ -93,7 +93,11 @@ const Codigos = () => {
   const tabla5527248Ref = useRef(null); //1000
   const tabla5607896Ref = useRef(null); //1000
   const tabla4550136Ref = useRef(null); //1000
-  // const tabla4550136Ref = useRef(null); //1000
+  const tablaf4a8422a13d8Ref = useRef(null); //1000
+  const tablae8afbc641d44Ref = useRef(null); //1000
+  // const tablae8afbc641d44Ref = useRef(null); //1000
+
+
 
 
 
@@ -523,6 +527,34 @@ const Codigos = () => {
         </table>
         <button
           onClick={() => capturarTabla(tabla4368628Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">(Martes 01 de julio 2025)</span>
+        <span className="detalle-codigos">
+          Originalmente de la muerte 46 y actualmente lo trae lobo 28, Se mando a actualizar a la version 4.1 y cambio de numero de serie. Pero sigue siendo el mismo de arriba.
+        </span>
+        <table ref={tablaf4a8422a13d8Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie">SE-nf4a8422a13d8</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">13-01-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/03 ENERO 2025/13-01-2025 SE-nf4a8422a13d8.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTabla(tablaf4a8422a13d8Ref.current)}
           className="boton-descarga-codigos"
         >
           Descargar Imagen
@@ -2780,6 +2812,38 @@ const Codigos = () => {
         </table>
         <button
           onClick={() => capturarTablaLarga(tabla4550136Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Miercoles 02 de julio.)
+        </span>
+        <span className="detalle-codigos">
+          (Llego en mayo pero estaba bloqueado y se regreso para refurbished. y llego en junio.)
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tablae8afbc641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-ne8afbc641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-ne8afbc641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tablae8afbc641d44Ref.current)}
           className="boton-descarga-codigos"
         >
           Descargar Imagen
