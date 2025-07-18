@@ -35,7 +35,7 @@ const datos = {
     { fecha: "16-02-2025", codigo: "SE-n5557620", color: "#29e8ff", numero: "34", estado: "ok"},//azul ruta 01
     { fecha: "16-02-2025", codigo: "SE-n5569684", color: "white" },
     { fecha: "16-02-2025", codigo: "SE-n5633544", color: "#9cf94e", numero: "119", estado: "ok" },//verde
-    { fecha: "16-02-2025", codigo: "SE-n5642500", color: "white" },
+    { fecha: "16-02-2025", codigo: "SE-n5642500", color: "#f94e4e", numero: "39", estado: "ok" },//rojo #39
     { fecha: "16-02-2025", codigo: "SE-n5648864", color: "white" },
     { fecha: "16-02-2025", codigo: "SE-n15216080", color: "white" },
     { fecha: "18-02-2025", codigo: "SE-n5571816", color: "linear-gradient(to bottom, red, white, green)", numero: "23", estado: "ok"},//Ruta 03
@@ -111,9 +111,29 @@ const datos = {
     { fecha: "16-06-2025", codigo: "5527248", color: "#29e8ff", numero: "51", estado: "ok"}, //azul ruta 01
     { fecha: "16-06-2025", codigo: "5607896", color: "#29e8ff", estado: "ok"}, //azul ruta 01
     { fecha: "19-06-2025", codigo: "4550136", color: "#9cf94e", estado: "ok" },//verde
-    { fecha: "25-06-2025", codigo: "e8afbc641d44", color: "white" },
-    
 
+    { fecha: "25-06-2025", codigo: "8cddf6641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "14b0bc641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "40fcbd641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "48c0f6641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "0890bc641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "6091bc641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "8429bd641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "dce5f6641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "e8afbc641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "fcb2f6641d44", color: "white" },
+    { fecha: "25-06-2025", codigo: "34bc64a84320", color: "#29e8ff", estado: "ok"}, //azul ruta 01 Ferxxos #138
+  ],
+
+  "JULIO 2025": [
+    { fecha: "04-07-2025", codigo: "4549032", color: "#29e8ff", estado: "ok"}, //azul ruta 01 Gabriel bandala
+    { fecha: "10-07-2025", codigo: "2ca4bc641d44", color: "white" },
+    { fecha: "10-07-2025", codigo: "6c3e64a84320", color: "linear-gradient(to bottom, red, white, green)", numero: "60", estado: "ULTRA"},//Ruta 03 60
+    { fecha: "10-07-2025", codigo: "344ef6641d44", color: "white" },
+    { fecha: "10-07-2025", codigo: "9095bc641d44", color: "white" },
+    { fecha: "10-07-2025", codigo: "a85ef6641d44", color: "white" },
+    { fecha: "10-07-2025", codigo: "d4f9bd641d44", color: "white" },
+    { fecha: "10-07-2025", codigo: "402be641d44", color: "white" },
   ],
 };
 

@@ -93,14 +93,32 @@ const Codigos = () => {
   const tabla5527248Ref = useRef(null); //1000
   const tabla5607896Ref = useRef(null); //1000
   const tabla4550136Ref = useRef(null); //1000
-  const tablaf4a8422a13d8Ref = useRef(null); //1000
+  const tablaf4a8422a13d8Ref = useRef(null); //1000 // Lobo rojo va en enero
+
+  //25 JUNIO
+  const tabla8cddf6641d44Ref = useRef(null); //1000
+  const tabla14b0bc641d44Ref = useRef(null); //1000
+  const tabla40fcbd641d44Ref = useRef(null); //1000
+  const tabla48c0f6641d44Ref = useRef(null); //1000
+  const tabla0890bc641d44Ref = useRef(null); //1000
+  const tabla6091bc641d44Ref = useRef(null); //1000
+  const tabla8429bd641d44Ref = useRef(null); //1000
+  const tabladce5f6641d44Ref = useRef(null); //1000
   const tablae8afbc641d44Ref = useRef(null); //1000
-  // const tablae8afbc641d44Ref = useRef(null); //1000
+  const tablafcb2f6641d44Ref = useRef(null); //1000
+  const tabla34bc64a84320Ref = useRef(null); //1000
 
-
-
-
-
+  //04 DE JULIO
+  const tabla4549032Ref = useRef(null); //1000
+  //10 DE JULIO
+  const tabla2ca4bc641d44Ref = useRef(null); //1000
+  const tabla6c3e64a84320Ref = useRef(null); //1000
+  const tabla344ef6641d44Ref = useRef(null); //1000
+  const tabla9095bc641d44Ref = useRef(null); //1000
+  const tablaa85ef6641d44Ref = useRef(null); //1000
+  const tablad4f9bd641d44Ref = useRef(null); //1000
+  const tablad402be641d44Ref = useRef(null); //1000
+  // const tablad402be641d44Ref = useRef(null); //1000
 
 
 
@@ -194,7 +212,7 @@ const Codigos = () => {
   };
 
   return (
-    
+
     <div className="contenedor-codigos-joyvolt">
       <div className="menu-flotante">
         {secciones.map((sec) => (
@@ -2817,6 +2835,243 @@ const Codigos = () => {
           Descargar Imagen
         </button>
 
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Viernes 04 de julio.)
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla8cddf6641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n8cddf6641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-n8cddf6641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla8cddf6641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          ((Fecha de entrega Viernes 04 de julio.))
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla14b0bc641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n14b0bc641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-n14b0bc641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla14b0bc641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Viernes 04 de julio.)
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla40fcbd641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n40fcbd641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-n40fcbd641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla40fcbd641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Viernes 04 de julio.)
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla48c0f6641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n48c0f6641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-n48c0f6641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla48c0f6641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Viernes 04 de julio.)
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla0890bc641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n0890bc641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-n0890bc641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla0890bc641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Viernes 04 de julio.)
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla6091bc641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n6091bc641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-n6091bc641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla6091bc641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Viernes 04 de julio.)
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla8429bd641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n8429bd641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-n8429bd641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla8429bd641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Viernes 04 de julio.)
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabladce5f6641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-ndce5f6641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-ndce5f6641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabladce5f6641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+
+
+
         <div className="separador-codigos-joyvolt"></div>
         <span className="detalle-codigos">
           (Fecha de entrega Miercoles 02 de julio.)
@@ -2849,6 +3104,307 @@ const Codigos = () => {
           Descargar Imagen
         </button>
 
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Viernes 04 de julio.)
+        </span>
+        <span className="detalle-codigos">(Nombre desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tablafcb2f6641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-nfcb2f6641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">25-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/25-06-2025 SE-nfcb2f6641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tablafcb2f6641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Desconocida.)
+        </span>
+        <span className="detalle-codigos">(Ferxxos Ruta 1 #138 ULTRAHD)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla34bc64a84320Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n34bc64a84320</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">30-06-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/08 JUNIO 2025/30-06-2025 SE-n34bc64a84320.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla34bc64a84320Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+      </section>
+
+
+      <section
+        id="julio-2025"
+        ref={refs.current["julio-2025"]}
+        className="seccion-codigos"
+      >
+        <h1 className="titulo-mes-codigos">JULIO 2025</h1>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Desconocida.)
+        </span>
+        <span className="detalle-codigos">(Gabriel bandala. Se lo compro a uno de verdes en $800. Su codigo generado es con fecha de julio de 2025, pero su fecha original es desconocida. Por su version parece ser de octubre de 2024.)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla4549032Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n4549032</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">04-07-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/09 JULIO 2025/04-07-2025 SE-n4549032.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla4549032Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Desconocida.)
+        </span>
+        <span className="detalle-codigos">(Nombre Desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla2ca4bc641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n2ca4bc641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">10-07-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/09 JULIO 2025/10-07-2025 SE-n2ca4bc641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla2ca4bc641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Viernes 11 de julio.)
+        </span>
+        <span className="detalle-codigos">(Ruta 3 Unidad #60 ULTRAHD)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla6c3e64a84320Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n6c3e64a84320</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">10-07-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/09 JULIO 2025/10-07-2025 SE-n6c3e64a84320.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla6c3e64a84320Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Desconocida.)
+        </span>
+        <span className="detalle-codigos">(Nombre Desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla344ef6641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n344ef6641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">10-07-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/09 JULIO 2025/10-07-2025 SE-n344ef6641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla344ef6641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Desconocida.)
+        </span>
+        <span className="detalle-codigos">(Nombre Desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tabla9095bc641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-n9095bc641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">10-07-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/09 JULIO 2025/10-07-2025 SE-n9095bc641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tabla9095bc641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Desconocida.)
+        </span>
+        <span className="detalle-codigos">(Nombre Desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tablaa85ef6641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-na85ef6641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">10-07-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/09 JULIO 2025/10-07-2025 SE-na85ef6641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tablaa85ef6641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Desconocida.)
+        </span>
+        <span className="detalle-codigos">(Nombre Desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tablad4f9bd641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-nd4f9bd641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">10-07-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/09 JULIO 2025/10-07-2025 SE-nd4f9bd641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tablad4f9bd641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
+
+
+        <div className="separador-codigos-joyvolt"></div>
+        <span className="detalle-codigos">
+          (Fecha de entrega Desconocida.)
+        </span>
+        <span className="detalle-codigos">(Nombre Desconocido)</span>
+        <span className="detalle-codigos">(version 4.1)</span>
+        <table ref={tablad402be641d44Ref} className="tabla-codigos">
+          <tr>
+            <td className="celda-codigos-serie-largo">SE-nd402be641d44</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-fecha">10-07-2025</td>
+          </tr>
+          <tr>
+            <td className="celda-codigos-img">
+              <img
+                style={{ width: "95%", height: "auto" }}
+                src="./codigos/09 JULIO 2025/10-07-2025 SE-nd402be641d44.png"
+              />
+            </td>
+          </tr>
+        </table>
+        <button
+          onClick={() => capturarTablaLarga(tablad402be641d44Ref.current)}
+          className="boton-descarga-codigos"
+        >
+          Descargar Imagen
+        </button>
 
       </section>
     </div>
