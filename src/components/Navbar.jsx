@@ -23,6 +23,7 @@ const navigationItems = [
   { path: '/kit', icon: faScrewdriverWrench, label: 'Kit' },
   { path: '/curso', icon: faPlay, label: 'Curso' },
   { path: '/gifs', icon: faGift, label: 'Gifs' },
+  { path: '/rol', icon: faTableList, label: 'Rol' },
 
 ];
 

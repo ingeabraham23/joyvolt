@@ -188,5 +188,20 @@
   margin-bottom: 20px;
 }
 
+/* Botón flotante en la esquina superior derecha */
+.toggle-boton {
+  position: fixed;
+  top: 120px;
+  right: 10px;
+  z-index: 1001;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 
 }

@@ -147,6 +147,7 @@ const Simbolos = () => {
   const tabla03Ref = useRef(null);
   const tabla04Ref = useRef(null);
   const tablatiposRef = useRef(null);
+  const tablaterminosRef = useRef(null);
 
   const tablaStandardRef = useRef(null);
   const tablaBotonRojoRef = useRef(null);
@@ -318,12 +319,12 @@ const Simbolos = () => {
             </tr>
             <tr>
               <td className="terminos" colSpan={2}>
-                3 meses de garantía.
+                1 mes de garantía. A partir del dia de entrega del letrero.
               </td>
             </tr>
             <tr>
               <td className="terminos" colSpan={2}>
-                Si lo quemas no hay garantia.
+                Aplican terminos y condiciones.
               </td>
             </tr>
             <tr>
@@ -343,7 +344,7 @@ const Simbolos = () => {
             </tr>
             <tr>
               <td className="copyright" colSpan={2}>
-                ©2025 JoyBoy & Ferxxo & JoyVolt Corporation.
+                ©2025 JoyBoy & FerxxoS & JoyVolt Corporation.
               </td>
             </tr>
           </tbody>
@@ -357,6 +358,124 @@ const Simbolos = () => {
       </button>
       <br></br>
       <br></br>
+
+      <div>
+        <table className="tabla-condiciones" ref={tablaterminosRef}> 
+          <thead>
+            <tr>
+              <th colSpan={2} className="celda-condiciones-titulo">
+                Términos y Condiciones de Garantía
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="celda-condiciones-subtitulo" colSpan={2}>
+                Vigencia de Garantía
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="celda-condiciones">
+                La garantía tiene una vigencia de <strong>un (1) mes</strong> a partir de la fecha de entrega del producto.
+              </td>
+            </tr>
+
+            <tr>
+              <td className="celda-condiciones-subtitulo" colSpan={2}>
+                Cobertura
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="celda-condiciones">
+                Cubre exclusivamente <strong>fallas de fabricación</strong> o <strong>defectos en los componentes internos</strong> del letrero iLED PRO.
+              </td>
+            </tr>
+
+            <tr>
+              <td className="celda-condiciones-subtitulo" colSpan={2}>
+                Exclusiones
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="celda-condiciones">
+                La garantía quedará anulada en los siguientes casos:
+                <ul>
+                  <li>Manipulación, apertura o modificación del letrero por personal no autorizado.</li>
+                  <li>Daños por sobrecarga eléctrica, cortocircuito o instalación incorrecta.</li>
+                  <li>Uso de fusible distinto al especificado (debe ser de <strong>5 amperios</strong>).</li>
+                  <li>Golpes, caídas, quemaduras o cualquier daño físico evidente.</li>
+                  <li>Uso inadecuado o en ambientes no recomendados (humedad, calor excesivo, exposición al agua).</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="celda-condiciones-subtitulo" colSpan={2}>
+                Procedimiento para aplicar la garantía
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="celda-condiciones">
+                El cliente deberá presentar el letrero junto con el <strong>comprobante de compra</strong>. Si el producto tiene una falla cubierta por la garantía y <strong>hay unidades en existencia</strong>, se entregará un reemplazo inmediato. Mientras tanto, el letrero original será enviado al fabricante para evaluación. <strong>El cliente no asumirá costos</strong> de envío o devolución, estos serán cubiertos por el proveedor.
+              </td>
+            </tr>
+
+            <tr>
+              <td className="celda-condiciones-subtitulo" colSpan={2}>
+                Servicio posterior al periodo de garantía
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="celda-condiciones">
+                Una vez vencido el periodo de garantía, cualquier reparación estará sujeta a evaluación técnica. <strong>Los costos de reparación, repuestos y gastos de envío</strong> (ida y vuelta por paquetería) deberán ser cubiertos por el cliente.
+              </td>
+            </tr>
+
+            <tr>
+              <td className="celda-condiciones-subtitulo" colSpan={2}>
+                Recomendaciones de uso
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="celda-condiciones">
+                Se recomienda seguir al pie de la letra las indicaciones del videotutorial entregado. Una instalación adecuada garantiza un funcionamiento seguro y óptimo.
+              </td>
+            </tr>
+
+            <tr>
+              <td className="celda-condiciones-subtitulo" colSpan={2}>
+                Contacto
+              </td>
+            </tr>
+            <tr>
+              <td className="celda-contacto" colSpan={2}>
+                Atención exclusivamente por WhatsApp:
+                <ul>
+                  <li>☎ 231 159 1893</li>
+                  <li>☎ 231 128 4412</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="copyright" colSpan={2}>
+                ©2025 JoyBoy & FerxxoS & JoyVolt Corporation. Todos los derechos reservados.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+      <button
+        className="boton-capturar-simbolos"
+        onClick={() => capturarTabla(tablaterminosRef.current, "Tabla Terminos")}
+      >
+        📸 Capturar Tabla Terminos
+      </button>
+      <br></br>
+      <br></br>
+
 
       <div ref={tablaStandardRef}>
         <div className="titulo-simbolos">Estandarizacion de caracteres</div>

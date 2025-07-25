@@ -5,6 +5,11 @@ import { useRef, useState, useEffect } from "react";
 import html2canvas from "html2canvas";
 
 const Codigos = () => {
+
+  const [mostrarMenu, setMostrarMenu] = useState(false);
+  const [activo, setActivo] = useState(null);
+
+
   const tabla12231344Ref = useRef(null);
   const tabla6170660Ref = useRef(null);
   const tabla15023616Ref = useRef(null);
@@ -171,6 +176,7 @@ const Codigos = () => {
     { id: "abril-2025", titulo: "Abr 2025" },
     { id: "mayo-2025", titulo: "May 2025" },
     { id: "junio-2025", titulo: "Jun 2025" },
+    { id: "julio-2025", titulo: "Jul 2025" },
   ];
 
   const refs = useRef(
@@ -179,8 +185,6 @@ const Codigos = () => {
       return acc;
     }, {})
   );
-
-  const [activo, setActivo] = useState("");
 
   useEffect(() => {
 
@@ -205,26 +209,41 @@ const Codigos = () => {
   }, [secciones]);
 
   const scrollTo = (id) => {
-    refs.current[id].current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+      setActivo(id);
+      //setMostrarMenu(false); // opcional: cierra el menú después del click
+    }
   };
 
   return (
 
     <div className="contenedor-codigos-joyvolt">
-      <div className="menu-flotante">
-        {secciones.map((sec) => (
-          <button
-            key={sec.id}
-            className={`boton-menu ${activo === sec.id ? "activo" : ""}`}
-            onClick={() => scrollTo(sec.id)}
-          >
-            {sec.titulo}
-          </button>
-        ))}
-      </div>
+
+      {/* Botón flotante en la esquina superior derecha */}
+      <button
+        className="toggle-boton"
+        onClick={() => setMostrarMenu(!mostrarMenu)}
+      >
+        {mostrarMenu ? "✖" : "☰"}
+      </button>
+
+
+      {/* Menú flotante */}
+      {mostrarMenu && (
+        <div className="menu-flotante">
+          {secciones.map((sec) => (
+            <button
+              key={sec.id}
+              className={`boton-menu ${activo === sec.id ? "activo" : ""}`}
+              onClick={() => scrollTo(sec.id)}
+            >
+              {sec.titulo}
+            </button>
+          ))}
+        </div>
+      )}
 
       <section
         id="octubre-2024"
